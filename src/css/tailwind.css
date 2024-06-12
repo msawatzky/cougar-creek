@@ -834,6 +834,10 @@ video {
   font-weight: 500;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -884,6 +888,14 @@ video {
 
 .font-cactus{
   font-family: 'Cactus Classical';
+}
+
+.font-aleo {
+  font-family: "Aleo", serif;
+}
+
+.font-tenor-sans{
+  font-family: "Tenor Sans", sans-serif;
 }
 
 * {

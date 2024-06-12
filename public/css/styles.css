@@ -6,6 +6,13 @@
   font-family: 'Cactus Classical';
 }
 
+.font-aleo {
+  font-family: "Aleo", serif;
+}
+.font-tenor-sans{
+  font-family: "Tenor Sans", sans-serif;
+}
+
 
 * {box-sizing: border-box;}
 body {font-family: 'Montserrat', sans-serif;}
