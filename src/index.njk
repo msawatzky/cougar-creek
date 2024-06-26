@@ -2,7 +2,7 @@
 layout: base.njk
 title: Home
 ---
-<div class="absolute w-full h-full">
+{# <div class="absolute w-full h-full">
   <div class="mySlides fade h-full">
     <img class="h-full object-cover" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-06.jpg
   " style="width:100%">
@@ -22,20 +22,27 @@ title: Home
     <img class="h-full object-cover" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-05.jpg
   " style="width:100%">
   </div>
+</div> #}
+<div class="px-4 h-screen w-full home-img-bg before:bg-gradient-to-t before:from-black/30 before:to-white/10 before:h-full before:w-full before:absolute flex flex-col items-center justify-center">
+  <div class="h-[100px] w-full"></div>
+  <div class="flex flex-col items-center justify-center z-10  max-w-[900px]">
+    <h1 class="font-cactus text-5xl text-white [text-shadow:_0_1px_3px_rgb(0_0_0)] mb-6 text-center">COUGAR CREEK<br/>GOLF RESORT</h1>
+    <h3 class="text-lg text-white font-aleo text-center mb-6 [text-shadow:_0_1px_3px_rgb(0_0_0)] ">This 18 hole championship golf course offers beautifully manicured fairways, challenging undulations, and an enjoyable experience for golfers of all skill levels.
+    </h3>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
+      <a href="https://www.tee-on.com/PubGolf/servlet/com.teeon.teesheet.servlets.golfersection.ComboLanding?CourseCode=COUG&FromCourseWebsite=true" target="_blank" class="bg-gradient-to-t from-sky-800 to-sky-900 rounded text-white shadow-lg w-full px-3 py-4 text-lg font-medium hover:from-sky-700 hover:to-sky-800 text-center">
+      <i class="fa-solid fa-golf-tee"></i>
+  Book A Tee Time</a>
+
+    <a class="bg-gradient-to-t from-green-900 to-green-800 rounded text-white shadow-lg w-full px-3 py-4 text-lg font-medium hover:from-green-800 hover:to-green-900 text-center">
+      <i class="fa-solid fa-golf-tee"></i>
+  Download Our App</a>
+    </div>
+    
+  </div>
 </div>
-<section class="p-10 text-white h-screen flex flex-col justify-center items-center">
-        <div class="p-8 block bg-black/30 z-10">
-            <h1 class="text-6xl font-light mb-4 drop-shadow-lg  font-tenor-sans text-center tracking-wide">Welcome to</h1>
-            <img class="text-center mx-auto mb-10" src="https://cougarcreekgolf.com/wp-content/uploads/2015/02/logo-reverse.png" alt="" />
-            <h1 class="text-4xl  mb-4 drop-shadow-lg text-center font-light">Discover Luxery Golf Minutes From Edmonton</h1>
-            <div class="block text-center p-4">
-            <div class="mx-auto bg-[#403710] shadow text-white text-lg p-4 hover:bg-[#403710]/80 inline-block cursor-pointer" onclick="window.open('https://www.tee-on.com/PubGolf/servlet/com.teeon.teesheet.servlets.golfersection.ComboLanding?CourseCode=COUG&FromCourseWebsite=true', '_blank')">Book a Tee Time</div>
 
-            </div>
-        </div>
-    </section>
-
-<script>
+{# <script>
     let slideIndex = 0;
     showSlides();
     
@@ -56,4 +63,4 @@ title: Home
       
       setTimeout(showSlides, 7000); // Change image every 2 seconds
     }
-    </script>
+    </script> #}

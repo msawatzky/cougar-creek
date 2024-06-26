@@ -12,131 +12,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Tenor+Sans&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans bg-gray-100">
-    <!-- Navbar -->
-    <nav class="bg-white shadow-md fixed w-full top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-center items-center h-16">
-                <div class="flex">
-                    <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
-                        <div class="relative group flex items-center">
-                            <a href="/" class="text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium">Home</a>
-                            <!-- Dropdown menu -->
-                            <div class="absolute left-0 top-4 py-4 hidden group-hover:block bg-white shadow-lg rounded-md mt-2 w-48">
-                                <a href="/subpage1" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Subpage 1</a>
-                                <a href="/subpage2" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Subpage 2</a>
-                            </div>
-                        </div>
-                        <div class="relative group flex items-center">
-                            <a href="/golf" class="text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium">Golf</a>
-                            <!-- Dropdown menu -->
-                            <div class="absolute left-0 top-4 py-4 hidden group-hover:block bg-white shadow-lg rounded-md mt-2 w-48">
-                                <a href="/golf/subpage1" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Golf Subpage 1</a>
-                                <a href="/golf/subpage2" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Golf Subpage 2</a>
-                            </div>
-                        </div>
-                        <div class="relative group flex items-center">
-                            <a href="/clubhouse" class="text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium">Clubhouse</a>
-                            <!-- Dropdown menu -->
-                            <div class="absolute left-0 top-4 py-4 hidden group-hover:block bg-white shadow-lg rounded-md mt-2 w-48">
-                                <a href="/clubhouse/subpage1" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Clubhouse Subpage 1</a>
-                                <a href="/clubhouse/subpage2" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Clubhouse Subpage 2</a>
-                            </div>
-                        </div>
-                        <div class="relative group flex items-center">
-                            <a href="/contact" class="text-gray-900 inline-flex items-center px-1 pt-1 text-base font-medium">Contact Us</a>
-                            <!-- Dropdown menu -->
-                            <div class="absolute left-0 top-4 py-4 hidden group-hover:block bg-white shadow-lg rounded-md mt-2 w-48">
-                                <a href="/contact/subpage1" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Subpage 1</a>
-                                <a href="/contact/subpage2" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Subpage 2</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="-mr-2 flex items-center sm:hidden">
-                    <!-- Mobile menu button -->
-                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500" aria-expanded="false" aria-controls="mobile-menu">
-                        <span class="sr-only">Open main menu</span>
-                        <!-- Icon when menu is closed. -->
-                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                        </svg>
-                        <!-- Icon when menu is open. -->
-                        <svg class="hidden h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile menu, toggle classes based on menu state. -->
-        <div class="hidden sm:hidden" id="mobile-menu">
-            <div class="pt-2 pb-3 space-y-1">
-                <a href="/" class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600">Home</a>
-                <a href="/golf" class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600">Golf</a>
-                <a href="/clubhouse" class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600">Clubhouse</a>
-                <a href="/contact" class="block pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-gray-600">Contact Us</a>
-            </div>
-        </div>
+    <nav class="fixed top-0 w-full bg-primary flex justify-center shadow-lg z-20">
+        <img src="https://cougarcreekgolf.com/wp-content/uploads/2015/02/logo-reverse.png" class="h-24">
     </nav>
 
     <!-- Page Content -->
     <main>
-        <div class="absolute w-full h-full">
-  <div class="mySlides fade h-full">
-    <img class="h-full" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-06.jpg
-  " style="width:100%">
-  </div>
+        
+<div class="px-4 h-screen w-full home-img-bg before:bg-gradient-to-t before:from-black/30 before:to-white/10 before:h-full before:w-full before:absolute flex flex-col items-center justify-center">
+  <div class="h-[100px] w-full"></div>
+  <div class="flex flex-col items-center justify-center z-10  max-w-[900px]">
+    <h1 class="font-cactus text-5xl text-white [text-shadow:_0_1px_3px_rgb(0_0_0)] mb-6 text-center">COUGAR CREEK<br/>GOLF RESORT</h1>
+    <h3 class="text-lg text-white font-aleo text-center mb-6 [text-shadow:_0_1px_3px_rgb(0_0_0)] ">This 18 hole championship golf course offers beautifully manicured fairways, challenging undulations, and an enjoyable experience for golfers of all skill levels.
+    </h3>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-4 w-full">
+      <a href="https://www.tee-on.com/PubGolf/servlet/com.teeon.teesheet.servlets.golfersection.ComboLanding?CourseCode=COUG&FromCourseWebsite=true" target="_blank" class="bg-gradient-to-t from-sky-800 to-sky-900 rounded text-white shadow-lg w-full px-3 py-4 text-lg font-medium hover:from-sky-700 hover:to-sky-800 text-center">
+      <i class="fa-solid fa-golf-tee"></i>
+  Book A Tee Time</a>
 
-  <div class="mySlides fade h-full">
-    <img class="h-full" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-03.jpg
-  " style="width:100%">
-  </div>
-
-  <div class="mySlides fade h-full">
-    <img class="h-full" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-04.jpg
-  " style="width:100%">
-  </div>
-
-  <div class="mySlides fade h-full">
-    <img class="h-full" src="https://cougarcreekgolf.com/wp-content/uploads/2015/08/slider-images-05.jpg
-  " style="width:100%">
+    <a class="bg-gradient-to-t from-green-900 to-green-800 rounded text-white shadow-lg w-full px-3 py-4 text-lg font-medium hover:from-green-800 hover:to-green-900 text-center">
+      <i class="fa-solid fa-golf-tee"></i>
+  Download Our App</a>
+    </div>
+    
   </div>
 </div>
-<section class="p-10 text-white h-screen flex flex-col justify-center items-center">
-        <div class="p-8 block bg-black/30 z-10">
-            <h1 class="text-6xl font-light mb-4 drop-shadow-lg  font-tenor-sans text-center tracking-wide">Welcome to</h1>
-            <img class="text-center mx-auto mb-10" src="https://cougarcreekgolf.com/wp-content/uploads/2015/02/logo-reverse.png" alt="" />
-            <h1 class="text-4xl  mb-4 drop-shadow-lg text-center font-light">Discover Luxery Golf Minutes From Edmonton</h1>
-            <div class="block text-center p-4">
-            <div class="mx-auto bg-[#403710] shadow text-white text-lg p-4 hover:bg-[#403710]/80 inline-block cursor-pointer" onclick="window.open('https://www.tee-on.com/PubGolf/servlet/com.teeon.teesheet.servlets.golfersection.ComboLanding?CourseCode=COUG&FromCourseWebsite=true', '_blank')">Book a Tee Time</div>
 
-            </div>
-        </div>
-    </section>
 
-<script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      
-      // Hide all slides
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.opacity = 0;
-      }
-      
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      
-      // Fade in the next slide
-      slides[slideIndex-1].style.opacity = 1;  
-      
-      setTimeout(showSlides, 7000); // Change image every 2 seconds
-    }
-    </script>
     </main>
 
     <script src="/js/scripts.js"></script>

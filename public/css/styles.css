@@ -49,3 +49,9 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.home-img-bg{
+  background-image: url("https://cougarcreekgolf.com/wp-content/gallery/main-gallery/IMG_0298.JPG");
+  background-position: left;
+  background-size: cover;
+}
